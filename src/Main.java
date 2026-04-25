@@ -18,11 +18,11 @@ public class Main {
         System.out.println("--- Реєстрація підписників ---");
         manager.subscribe("Apple", investor1);
         manager.subscribe("Apple", investor2);
-        manager.subscribe("Apple", broker);   // брокер стежить за Apple
+        manager.subscribe("Apple", broker);   
 
         manager.subscribe("Google", investor3);
         manager.subscribe("Google", investor4);
-        manager.subscribe("Google", broker);  // і за Google теж
+        manager.subscribe("Google", broker);  
 
 
         manager.notifySubscribers("Apple", 4500.00);
